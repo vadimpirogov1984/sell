@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller</title>
+    <link rel="icon" type="image/png" href="./img/icons/favicon.png">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"  />
+    <link rel="stylesheet" href="./libs/accordion.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header" class="header">
+            <div class="header__container container">
+                <a href="#" class="header__logo logo-header">
+                    <img src="./img/icons/logo.png" alt="Логотип" class="logo-header__img">
+                    <span class="logo-header__text">Seller24</span>
+                </a>
+                <button class="burger" aria-label="Кнопка бургер-меню">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-item"><a href="#" class="header__list-link link">О компании</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link link">Наши услуги</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link link">Платформа Seller24</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link link">Наши достижения</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link link">Нам доверяют</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link link">Вопросы</a></li>
+                        <li class="header__list-item"><a href="#" class="header__list-link link">Вперед к успеху</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="hero__container container">
+                    <h1 class="hero__title">
+                        <span class="hero__item">ПРОДВИЖЕНИЕ</span>
+                        <span class="hero__item">И РАЗМЕЩЕНИЕ</span>
+                        <span class="hero__item">ВАШИХ ТОВАРОВ</span>
+                        <span class="hero__item">НА МАРКЕТПЛЕЙСАХ</span>
+                    </h1>
+                    <div class="hero__menu menu-hero">
+                        <div class="menu-hero__left">
+                            <a href="#header" class="menu-hero__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="48px" height="42px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g><path style="opacity:0.763" fill="#" d="M -0.5,23.5 C -0.5,20.1667 -0.5,16.8333 -0.5,13.5C 4.59926,7.83513 10.5993,7.00179 17.5,11C 19,12.5 20.5,14 22,15.5C 28.6109,7.57699 35.9443,6.57699 44,12.5C 46.833,19.1569 45.333,24.4903 39.5,28.5C 38.7379,27.3717 38.0712,26.2051 37.5,25C 41.9337,21.7331 42.6003,17.7331 39.5,13C 34.0382,11.1278 29.5382,12.6278 26,17.5C 25.6666,19.0468 26.1666,20.3801 27.5,21.5C 25.8145,25.361 23.9812,25.361 22,21.5C 16.8759,28.7364 10.3759,30.5698 2.5,27C 1.36362,25.8549 0.363622,24.6883 -0.5,23.5 Z M 7.5,11.5 C 12.4216,12.2928 16.4216,14.6262 19.5,18.5C 16.6718,21.826 13.1718,24.1594 9,25.5C 1.0114,21.5637 0.511396,16.8971 7.5,11.5 Z"/></g>
+                                    <g><path style="opacity:0.592" fill="#" d="M 28.5,22.5 C 31.8894,23.7101 32.2228,25.3768 29.5,27.5C 27.2957,26.218 26.9624,24.5514 28.5,22.5 Z"/></g>
+                                    <g><path style="opacity:0.63" fill="#" d="M 33.5,25.5 C 34.5,25.5 35.5,25.5 36.5,25.5C 36.5,26.8333 36.5,28.1667 36.5,29.5C 33.0464,29.7332 32.0464,28.3999 33.5,25.5 Z"/></g>
+                                </svg>
+                            </a>
+                            <a href="#about" class="menu-hero__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="46px" height="50px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g><path style="opacity:0.927" fill="" d="M 17.5,-0.5 C 20.5,-0.5 23.5,-0.5 26.5,-0.5C 30.1541,2.30361 33.9875,4.97028 38,7.5C 38.4955,5.5273 38.6621,3.5273 38.5,1.5C 40.1439,1.28649 41.6439,1.61983 43,2.5C 43.3333,5.5 43.6667,8.5 44,11.5C 44.3826,12.056 44.8826,12.3893 45.5,12.5C 45.5,23.5 45.5,34.5 45.5,45.5C 44.1667,46.8333 42.8333,48.1667 41.5,49.5C 37.8333,49.5 34.1667,49.5 30.5,49.5C 29.536,42.2537 29.2027,34.9204 29.5,27.5C 24.5,27.5 19.5,27.5 14.5,27.5C 14.7973,34.9204 14.464,42.2537 13.5,49.5C 9.83333,49.5 6.16667,49.5 2.5,49.5C 2.02694,48.0937 1.02694,47.427 -0.5,47.5C -0.5,35.5 -0.5,23.5 -0.5,11.5C 5.79491,7.85895 11.7949,3.85895 17.5,-0.5 Z"/></g>
+                                </svg>
+                            </a>
+                            <a href="#service" class="menu-hero__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="47px" height="50px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g><path style="opacity:0.768" fill="" d="M 46.5,8.5 C 46.5,10.1667 46.5,11.8333 46.5,13.5C 38.0535,27.2042 31.0535,26.3708 25.5,11C 28.0513,1.59756 33.718,-1.0691 42.5,3C 43.9771,4.81213 45.3104,6.64547 46.5,8.5 Z M 34.5,5.5 C 43.298,8.47749 43.798,12.8108 36,18.5C 33.3794,16.5505 31.5461,14.0505 30.5,11C 31.0074,8.45475 32.3407,6.62142 34.5,5.5 Z"/></g>
+                                    <g><path style="opacity:0.755" fill="" d="M 46.5,37.5 C 46.5,38.8333 46.5,40.1667 46.5,41.5C 45.348,44.8151 43.0147,46.9817 39.5,48C 32.8333,48.6667 26.1667,48.6667 19.5,48C 18.6198,46.6439 18.2865,45.1439 18.5,43.5C 25.175,43.6663 31.8417,43.4996 38.5,43C 41.6992,41.321 42.0325,39.321 39.5,37C 34.8333,36.6667 30.1667,36.3333 25.5,36C 20.2625,32.7262 19.0958,28.2262 22,22.5C 23.897,20.9837 26.0637,20.317 28.5,20.5C 28.4487,23.5415 27.4487,26.2082 25.5,28.5C 25.6082,29.4419 25.9415,30.2753 26.5,31C 31.1667,31.3333 35.8333,31.6667 40.5,32C 43.0226,33.3597 45.0226,35.193 46.5,37.5 Z"/></g>
+                                    <g><path style="opacity:0.748" fill="" d="M -0.5,40.5 C -0.5,37.5 -0.5,34.5 -0.5,31.5C 5.23194,23.991 11.3986,23.6576 18,30.5C 20.8598,39.057 18.0265,45.057 9.5,48.5C 5.25456,46.9159 1.92122,44.2493 -0.5,40.5 Z M 7.5,30.5 C 15.8885,33.0286 16.5552,37.0286 9.5,42.5C 3.07753,39.1072 2.41087,35.1072 7.5,30.5 Z"/></g>
+                                </svg>
+                            </a>
+                            <a href="#platform" class="menu-hero__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="51px" height="50px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g><path style="opacity:0.842" fill="" d="M 18.5,-0.5 C 22.1667,-0.5 25.8333,-0.5 29.5,-0.5C 40.1223,5.40841 42.289,13.7417 36,24.5C 31.9427,26.551 30.4427,29.8844 31.5,34.5C 33.5,34.5 35.5,34.5 37.5,34.5C 38.88,39.5939 40.5467,44.5939 42.5,49.5C 30.5,49.5 18.5,49.5 6.5,49.5C 8.04314,44.7427 9.87647,40.0761 12,35.5C 13.6995,34.5939 15.5328,34.2606 17.5,34.5C 17.6633,32.1432 17.4966,29.8098 17,27.5C 6.64053,17.5724 7.14053,8.23909 18.5,-0.5 Z M 20.5,4.5 C 31.7582,3.7057 35.9249,8.7057 33,19.5C 27.9421,24.3827 22.6087,24.716 17,20.5C 13.1287,14.0204 14.2953,8.68708 20.5,4.5 Z M 22.5,29.5 C 23.8333,29.5 25.1667,29.5 26.5,29.5C 26.5,31.1667 26.5,32.8333 26.5,34.5C 25.1667,34.5 23.8333,34.5 22.5,34.5C 22.5,32.8333 22.5,31.1667 22.5,29.5 Z M 15.5,39.5 C 21.5368,39.1707 27.5368,39.5041 33.5,40.5C 34.2458,41.7362 34.5792,43.0695 34.5,44.5C 27.8333,44.5 21.1667,44.5 14.5,44.5C 14.6287,42.7839 14.962,41.1172 15.5,39.5 Z"/></g>
+                                    <g><path style="opacity:0.745" fill="" d="M 26.5,9.5 C 28.1667,9.5 29.8333,9.5 31.5,9.5C 31.5,11.1667 31.5,12.8333 31.5,14.5C 29.8333,14.5 28.1667,14.5 26.5,14.5C 26.5,12.8333 26.5,11.1667 26.5,9.5 Z"/></g>
+                                </svg>
+                            </a>
+                            <a href="#achiev" class="menu-hero__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="36px" height="50px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g><path style="opacity:0.959" fill="" d="M 3.5,-0.5 C 12.5,-0.5 21.5,-0.5 30.5,-0.5C 32.6943,1.89969 34.361,4.56635 35.5,7.5C 35.5,18.8333 35.5,30.1667 35.5,41.5C 34.361,44.4336 32.6943,47.1003 30.5,49.5C 21.5,49.5 12.5,49.5 3.5,49.5C 2.13632,47.8089 0.802988,46.1423 -0.5,44.5C -0.5,31.1667 -0.5,17.8333 -0.5,4.5C 0.802988,2.85774 2.13632,1.19107 3.5,-0.5 Z M 13.5,5.5 C 15.8333,5.5 18.1667,5.5 20.5,5.5C 20.5,6.5 20.5,7.5 20.5,8.5C 18.1667,8.5 15.8333,8.5 13.5,8.5C 13.5,7.5 13.5,6.5 13.5,5.5 Z"/></g>
+                                </svg>
+                            </a>
+                            <a href="#questions" class="menu-hero__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="46px" height="50px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g><path style="opacity:0.861" fill="" d="M 3.5,-0.5 C 15.8333,-0.5 28.1667,-0.5 40.5,-0.5C 42.1423,0.802988 43.8089,2.13632 45.5,3.5C 45.5,17.5 45.5,31.5 45.5,45.5C 43.8089,46.8637 42.1423,48.197 40.5,49.5C 28.1667,49.5 15.8333,49.5 3.5,49.5C 2.20498,48.5116 0.871651,47.5116 -0.5,46.5C -0.5,31.8333 -0.5,17.1667 -0.5,2.5C 0.871651,1.48837 2.20498,0.488369 3.5,-0.5 Z M 6.5,6.5 C 17.415,6.17966 28.2483,6.51299 39,7.5C 40.1215,13.0606 40.6215,18.7273 40.5,24.5C 40.3333,29.5 40.1667,34.5 40,39.5C 39.6258,40.4162 39.1258,41.2496 38.5,42C 27.8333,42.6667 17.1667,42.6667 6.5,42C 6,41.5 5.5,41 5,40.5C 3.38464,30.5998 3.05131,20.5998 4,10.5C 4.66218,9.01608 5.49551,7.68275 6.5,6.5 Z"/></g>
+                                    <g><path style="opacity:0.816" fill="" d="M 18.5,9.5 C 29.7908,9.26963 33.2908,14.2696 29,24.5C 26.6908,25.9752 24.5241,27.6419 22.5,29.5C 17.1345,26.0924 17.3012,22.7591 23,19.5C 23.7494,18.365 23.5827,17.365 22.5,16.5C 21.1552,17.3467 20.1552,18.5134 19.5,20C 14.3333,21.5 12.5,19.6667 14,14.5C 15.025,12.313 16.525,10.6464 18.5,9.5 Z"/></g>
+                                    <g><path style="opacity:0.737" fill="" d="M 19.5,32.5 C 25.1581,31.6794 26.8248,33.846 24.5,39C 19.2791,39.6099 17.6124,37.4432 19.5,32.5 Z"/></g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="menu-hero__right">
+                            <button class="btn btn-white menu-hero__btn">Начать</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="about section-offset">
+                <div class="about__container container">
+                    <h2 class="about__title section__title">О компании</h2>
+                    <div class="about__content content-about">
+                        <div class="content-about__left">
+                            <div class="content-about__text text-about">
+                                <p class="text-about__item">Seller24 – это сервис развития торговли на маркетплейсах полного цикла и технологический партнер Ozon и Яндекс.Маркет.</p>
+                                <p class="text-about__item">Наша команда – профессионалы с большим опытом сопровождения продавцов.</p>
+                                <p class="text-about__item">Мы регулярно проходим сертификацию и обладаем самыми актуальными знаниями и навыками, которые помогают начать продавать даже новичку.</p>
+                            </div>
+                        </div>
+                        <div class="content-about__right"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="service" class="service section-offset">
+                <div class="service__container container">
+                    <h2 class="service__title section__title">Наши услуги</h2>
+                    <div class="service__content">
+                        <div class="service__text">Оказываем полный цикл  услуг по работе с маркетплейсами: от старта до активных продаж.</div>
+                        <div class="image-service__title">ДОРОЖНАЯ КАРТА <br> НАЧИНАЮЩЕГО СЕЛЛЕРА</div>
+                        <div class="service__image image-service">
+                            <div class="image-service__item item-service">
+                                <div class="item-service__title">Поиск ниши</div>
+                                <div class="item-service__text">Услуга "Аналитика ниши"</div>
+                            </div>
+                            <div class="image-service__item item-service">
+                                <div class="item-service__title">Выбор маркетплейса</div>
+                                <div class="item-service__text">Консультация эксперта Seller24</div>
+                            </div>
+                            <div class="image-service__item item-service">
+                                <div class="item-service__title">Создание магазина</div>
+                                <div class="item-service__text">Услуга "Выведение на маркетплейс"</div>
+                            </div>
+                            <div class="image-service__item item-service">
+                                <div class="item-service__title">Управление магазином</div>
+                                <div class="item-service__text">Услуга "Сопровождение и доступ к <span class="item-service__span">платформе</span>"</div>
+                            </div>
+                            <div class="image-service__item item-service">
+                                <div class="item-service__title">Продвижение магазина</div>
+                                <div class="item-service__text">Услуга "Реклама и продвижение"</div>
+                            </div>
+                            <div class="image-service__item item-service">
+                                <div class="item-service__title">Расширение</div>
+                                <div class="item-service__text">Расширение ассортимента, выход на другие маркетплейсы</div>
+                            </div>
+                        </div>
+                        <ul class="service__cards">
+                            <li class="service__card card">
+                                <div class="card__header">
+                                    <div class="card__number">01</div>
+                                    <div class="card__title">ПОИСК НИШИ</div>
+                                </div>
+                                <div class="card__text">Аналитика ниши</div>
+                            </li>
+                            <li class="service__card card">
+                                <div class="card__header">
+                                    <div class="card__number">02</div>
+                                    <div class="card__title">ВЫБОР 
+                                        МАРКЕТПЛЕЙСА</div>
+                                </div>
+                                <div class="card__text color-02">Консультация эксперта Seller24</div>
+                            </li>
+                            <li class="service__card card">
+                                <div class="card__header">
+                                    <div class="card__number">03</div>
+                                    <div class="card__title">СОЗДАНИЕ МАГАЗИНА</div>
+                                </div>
+                                <div class="card__text color-03">Выведение на маркетплейс</div>
+                            </li>
+                            <li class="service__card card">
+                                <div class="card__header">
+                                    <div class="card__number">04</div>
+                                    <div class="card__title">УПРАВЛЕНИЕ МАГАЗИНОМ</div>
+                                </div>
+                                <div class="card__text color-04">Сопровождение, ПЛАТФОРМА</div>
+                            </li>
+                            <li class="service__card card">
+                                <div class="card__header">
+                                    <div class="card__number">05</div>
+                                    <div class="card__title">ПРОДВИЖЕНИЕ МАГАЗИНА</div>
+                                </div>
+                                <div class="card__text color-05">Реклама и продвижение</div>
+                            </li>
+                            <li class="service__card card">
+                                <div class="card__header">
+                                    <div class="card__number">06</div>
+                                    <div class="card__title">РАСШИРЕНИЕ</div>
+                                </div>
+                                <div class="card__text color-06">Расширение ассортимента, выход на другие маркетплейсы</div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="platform" class="platform section-offset">
+                <div class="platform__container container">
+                    <h2 class="platform__title section__title">Платформа Seller24</h2>
+                    <div class="platform__content">
+                        <div class="platform__content-left">
+                            <div class="content-left__text">
+                                <p class="platform__text">Наша платформа  - ваш инструменты для повышения ваших продаж на маркетплейсах</p>
+                                <p class="platform__text">Комплексная аналитика, управление заказами, ассортиментом и поставками— всё в одном окне.</p>
+                            </div>
+                            <div class="platform-right__block"></div>
+                            <div class="platform__btn">
+                                <button class="btn">Получить доступ</button>
+                            </div>
+                        </div>
+                        <div data-move="platform__content-left,1,1030" class="platform__content-right content-right">
+                            <div class="content-right-top"></div>
+                            <div class="content-right-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="achiev" class="achiev section-offset">
+                <div class="achiev__container container">
+                    <h2 class="achiev__title section__title">Наши достижения</h2>
+                    <div class="achiev__content">
+                        <div class="achiev__text">
+                            <p class="achiev__text-1">Победитель Marketplace Conf Award 2022 в номинации “Операторы”.</p>
+                            <p class="achiev__text-2">GOLD- партнер OZON.</p>
+                        </div>
+                        <ul class="achiev__cards">
+                            <li class="achiev__card-item card-achiev">
+                                <div class="card-achiev__title">5 млрд. руб.</div>
+                                <div class="card-achiev__text">выручка наших продавцов
+                                    в 2021 году</div>
+                            </li>
+                            <li class="achiev__card-item card-achiev">
+                                <div class="card-achiev__title">> 500 000</div>
+                                <div class="card-achiev__text">заведенных на маркетплейсы товаров</div>
+                            </li>
+                            <li class="achiev__card-item card-achiev">
+                                <div class="card-achiev__title">ТОП-3</div>
+                                <div class="card-achiev__text">сертифицирован-ных партнеров OZON</div>
+                            </li>
+                            <li class="achiev__card-item card-achiev">
+                                <div class="card-achiev__title">> 4000</div>
+                                <div class="card-achiev__text">продавцов вывели на маркетплейсы</div>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </section>
+            <section id="partners" class="partners section-offset">
+                <div class="partners__container container">
+                    <h2 class="partners__title section__title">Нам доверяют</h2>
+                    <div class="partners__content content-partners">
+                        <div class="content-partners__left">
+                            <p class="content-partners__text">С нами сотрудничают компании международного уровня</p>
+                        </div>
+                        <div class="content-partners__right">
+                            <div class="content-partners__slider swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="content-partners__slide content-partners__slide-1 swiper-slide">
+                                        <img src="./img/partners/08.png" alt="Лейбл компании">
+                                    </div>
+                                    <div class="content-partners__slide content-partners__slide-2 swiper-slide">
+                                        <img src="./img/partners/02.png" alt="Лейбл компании">
+                                    </div>
+                                    <div class="content-partners__slide content-partners__slide-3 swiper-slide">
+                                        <img src="./img/partners/03.png" alt="Лейбл компании">
+                                    </div>
+                                    <div class="content-partners__slide content-partners__slide-4 swiper-slide">
+                                        <img src="./img/partners/04.png" alt="Лейбл компании">
+                                    </div>
+                                    <div class="content-partners__slide content-partners__slide-5 swiper-slide">
+                                        <img src="./img/partners/05.png" alt="Лейбл компании">
+                                    </div>
+                                    <div class="content-partners__slide content-partners__slide-6 swiper-slide">
+                                        <img src="./img/partners/06.png" alt="Лейбл компании">
+                                    </div>
+                                    <div class="content-partners__slide content-partners__slide-7 swiper-slide">
+                                        <img src="./img/partners/07.png" alt="Лейбл компании">
+                                    </div>
+                                    <div class="content-partners__slide content-partners__slide-8 swiper-slide">
+                                        <img src="./img/partners/01.png" alt="Лейбл компании">
+                                    </div>
+                                </div>    
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="questions" class="questions section-offset">
+                <div class="questions__container container">
+                    <h2 class="questions__title section__title">Часто задаваемые вопросы</h2>
+                    <div class="questions__content">
+                        <div class="questions__cards card-questions">
+                            <ul class="card-questions accordion">
+                                <li class="card-questions__item accordion__item">
+                                    <h2 class="card-questions__item-before"><button type="button" class="accordion__btn"> Я могу и сам выйти на маркетплейс, зачем вы мне нужны?<span></span></button></h2>
+                                    <div class="card-questions__item-after">У разных маркетплейсов разные требования. Мы вывели 4000+ продавцов за 2,5 года работы и знаем точно как пройти модерацию. Не теряйте время на изучение материалов, начните продавать скорее с нами.</div>
+                                </li>
+                                <li class="card-questions__item accordion__item">
+                                    <h2 class="card-questions__item-before"><button type="button" class="accordion__btn"> Что нужно для выхода на маркетплейс?<span></span></button></h2>
+                                    <div class="card-questions__item-after">Для вывода товаров на маркетплейсы необходимо иметь ИП или ООО, наличие товара, купленного на компанию, сертификат на товар и ваше желание осваивать новые каналы продаж.</div>
+                                </li>
+                                <li class="card-questions__item accordion__item">
+                                    <h2 class="card-questions__item-before"><button type="button" class="accordion__btn"> Как быстро мои товары появятся на витрине площадок?<span></span></button></h2>
+                                    <div class="card-questions__item-after">Модерация товара на площадке занимает 2-3 недели</div>
+                                </li>
+                                <li class="card-questions__item accordion__item">
+                                    <h2 class="card-questions__item-before"><button type="button" class="accordion__btn"> Что такое FBS и FBO?<span></span></button></h2>
+                                    <div class="card-questions__item-after">FBS - сокращенно от Fulfillment by Seller - продажи со склада поставщика.FBO - сокращенно от Fulfillment by Operator - продажи со склада маркетплейса.</div>
+                                </li>
+                                <li class="card-questions__item accordion__item">
+                                    <div class="card-questions__item-before"><button type="button" class="accordion__btn"> На какой из маркетплейсов выходить?<span></span></button></div>
+                                    <div class="card-questions__item-after">Мы проанализировали продажи разных категорий продавцов и пришли к выводу, что лучше выводить сразу во все маркетплейсы одновременно, так как поведение конкурентов непредсказуемо, и угадать какую площадку любит именно ваша целевая аудитория также невозможно.</div>
+                                </li>
+                                <li class="card-questions__item accordion__item">
+                                    <div class="card-questions__item-before"><button type="button" class="accordion__btn"> Можно ли посмотреть аналитику по всем маркетплейсам в одном месте?<span></span></button></div>
+                                    <div class="card-questions__item-after">Да, искать в каждом из кабинетов данные неудобно. Именно поэтому мы создали для вас платформу Seller.24. Регистрируйтесь бесплатно!</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="go section-offset">
+                <div class="go__container container">
+                    <h2 class="go__title section__title">Вперед к успеху</h2>
+                    <div class="go__content">
+                        <p class="go__text">Настало ваше время двигаться вперед</p>
+                        <div class="go__btn">
+                            <button class="btn btn-big">Начать</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <a href="#" class="footer__logo">Seller24</a>
+                <div class="footer__content link">
+                    <div class="footer__column column-footer">
+                        <div class="column-footer__title">ПОДПИСАТЬСЯ НА РАССЫЛКУ</div>
+                        <form action="" class="footer__form">
+                            <label ></label>
+                            <input class="footer__input" type="text">
+                        </form>
+                    </div>
+                    <div class="footer__column column-footer">
+                        <address class="column-footer__title footer__address">г. Москва, наб. Пресненская, д. 12, помещ. 10/45, оф. 349</address>
+                        <a href="tel:+74951535847" class="footer__phone">+7 (495) 153-58-47</a>
+                        <a href="mailto:info@seller24.ru" class="contacts__mail">info@seller24.ru</a>
+                    </div>
+                    <div class="footer__column column-footer">
+                        <a href="#" class="footer__nav-link">О КОМПАНИИ</a>
+                        <a href="#" class="footer__nav-link">НАШИ УСЛУГИ</a>
+                        <a href="#" class="footer__nav-link">Платформа Seller24</a>
+                    </div>
+                    <div class="footer__column column-footer">
+                        <a href="#" class="footer__nav-link">Наши достижения</a>
+                        <a href="#" class="footer__nav-link">Нам доверяют</a>
+                        <a href="#" class="footer__nav-link">Часто задаваемые вопросы</a>
+                    </div>
+                </div>
+                <span class="footer__rights">© 2023 г. Seller24 Все права защищены</span>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./libs/accordion.min.js"></script>
+</body>
+</html>
