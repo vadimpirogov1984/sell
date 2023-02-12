@@ -3,19 +3,18 @@ let burger = document.querySelector('.burger');
 let menu = document.querySelector('.header__nav');
 let menuLinks = menu.querySelectorAll('.header__list-link');
 
-burger.addEventListener('click', 
-function() {
-    burger.classList.toggle('burger--active');
-    menu.classList.toggle('header__nav--active');
-    document.body.classList.toggle('stop-scroll');
-});
+burger.addEventListener('click', function() {
+		burger.classList.toggle('burger--active');
+		menu.classList.toggle('header__nav--active');
+		document.body.classList.toggle('stop-scroll');
+	});
 
-menuLinks.forEach(function(el) {
-    el.addEventListener('click', function() {
-        burger.classList.remove('burger--active');
-        menu.classList.remove('header__nav--active');
-        document.body.classList.remove('stop=scroll');
-    });
+	menuLinks.forEach(function(el) {
+		el.addEventListener('click', function() {
+			burger.classList.remove('burger--active');
+			menu.classList.remove('header__nav--active');
+			document.body.classList.remove('stop-scroll');
+		});
 });
 
 //Перброска части кода в другое место кода================
@@ -106,11 +105,16 @@ window.onscroll = function() {
 const cards = document.querySelectorAll('.card-questions__item');
 
 cards.forEach((card) => {
-    if(card) {
-      card.addEventListener('click', () => {
-        card.classList.toggle('flipped');
-      });
-  };
+	card.addEventListener('click', () => {
+		if(!card.classList.contains('flipped')) {
+			card.classList.add('flipped');
+		} else {
+			card.classList.remove('flipped');
+		}
+		let delay = setTimeout(() => {
+			card.classList.remove('flipped');
+		}, 10000);
+	});
 });
 
 //Accordion=================================
@@ -118,7 +122,6 @@ const itemsAc = document.querySelectorAll('.card-questions__item');
 const itemHeader = document.querySelectorAll('.card-questions__item-before');
 const itemPanel = document.querySelectorAll('.card-questions__item-after');
 const itemBtn = document.querySelectorAll('.accordion__btn');
-
 
 function addClass(items, newClass) {
 	cl = newClass;

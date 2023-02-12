@@ -103,7 +103,7 @@ body {
     line-height: calc(30 / 24);
     color: #000000;
 
-    scroll-padding-top: 100px;
+ /*    scroll-padding-top: 100px; */
 }
 
 .container {
@@ -1172,8 +1172,14 @@ body {
         position: static;
         padding-right: 45px;
         text-align: left;
+        outline: none;
     }
-    
+
+    .ac .ac-trigger:focus,
+    .ac .ac-trigger:active {
+        outline: none;
+    }
+
     .ac .ac-trigger::after {
         display: none;
         transform: rotate(90deg);
