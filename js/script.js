@@ -104,16 +104,22 @@ window.onscroll = function() {
 //Раскрытие карточек=======================
 const cards = document.querySelectorAll('.card-questions__item');
 
+
 cards.forEach((card) => {
 	card.addEventListener('click', () => {
-		if(!card.classList.contains('flipped')) {
-			card.classList.add('flipped');
-		} else {
-			card.classList.remove('flipped');
+		
+		if(document.body.clientWidth >= 767) {
+			console.log('Привет');
+			if(!card.classList.contains('flipped')) {
+				card.classList.add('flipped');
+			} else {
+				card.classList.remove('flipped');
+			}
+			let delay = setTimeout(() => {
+				card.classList.remove('flipped');
+			}, 10000);
+
 		}
-		let delay = setTimeout(() => {
-			card.classList.remove('flipped');
-		}, 10000);
 	});
 });
 
@@ -127,7 +133,9 @@ function addClass(items, newClass) {
 	cl = newClass;
 
 	items.forEach((item) => {
+
 		item.classList.toggle(cl);
+
 	}); 
 }
 
